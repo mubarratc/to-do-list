@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  align-items: center;
+}
+
+#header-section {
+  color: blue;
+}
+
+button {
+  background-color: blue;
+  color: white;
+}
+
+#li-el {
+  color: aquamarine;
+}

@@ -1,4 +1,12 @@
-// import "styles.css";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js"
+import { getDatabase, ref, set, push, remove, onValue } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-database.js"
+//Firebase set up
+const databaseConfig = {
+  databseURL = "https://to-do-list-app-e7a1d-default-rtdb.firebaseio.com/"
+}
+
+const app = initializeApp(databaseConfig)
+const databse = getDatabase(app)
 
 // Decalring HTML Elements as variables
 const buttonEL = document.getElementById("btn-el");
